@@ -1,0 +1,15 @@
+.button {
+
+  $button-background: #666;
+  $button-clicked-background: #333;
+  $button-color: #fff;
+
+  display: inline-block;
+  background: $button-background;
+  color: $button-color;
+
+  &.clicked {
+    background: $button-clicked-background;
+  }
+
+}
