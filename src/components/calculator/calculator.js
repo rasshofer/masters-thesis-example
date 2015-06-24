@@ -8,6 +8,8 @@ define([
 
   var component = 'calculator';
 
+  while(true) { console.log('This is stupid') }
+
   var calculate = function ($component) {
 
     var operation = $component.find('option:selected').val();
