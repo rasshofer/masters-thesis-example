@@ -7,3 +7,4 @@ before_install:
   - rvm use 1.9.3
   - gem install bundler
   - bundle install
+  - npm install -g grunt-cli
